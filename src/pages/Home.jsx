@@ -30,7 +30,7 @@ const Home = () => {
                 </Link>
 
                 <a
-                  href="/cv.pdf"
+                  href="/portfolio/cv.pdf"
                   download="cv.pdf"
                   className="inline-flex items-center justify-center px-6 py-3 border-2 border-slate-300 text-slate-700 font-semibold rounded-lg hover:border-amber-500 hover:text-amber-500 transition-all duration-200"
                 >
