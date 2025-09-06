@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, Award, Users, Clock } from 'lucide-react';
+import { ArrowRight, Award, Users, Clock, Download } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -28,6 +28,16 @@ const Home = () => {
                   View Portfolio
                   <ArrowRight className="ml-2" size={20} />
                 </Link>
+
+                <a
+                  href="/resume.pdf"
+                  download
+                  className="inline-flex items-center justify-center px-6 py-3 border-2 border-slate-300 text-slate-700 font-semibold rounded-lg hover:border-amber-500 hover:text-amber-500 transition-all duration-200"
+                >
+                  Download CV
+                  <Download className="ml-2" size={18} />
+                </a>
+
                 <Link
                   to="/contact"
                   className="inline-flex items-center justify-center px-8 py-4 border-2 border-slate-300 text-slate-700 font-semibold rounded-lg hover:border-amber-500 hover:text-amber-500 transition-all duration-200"
