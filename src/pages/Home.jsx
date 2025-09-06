@@ -15,11 +15,11 @@ const Home = () => {
                   <span className="text-amber-500 block">Design Solutions</span>
                 </h1>
                 <p className="text-xl text-slate-600 leading-relaxed max-w-xl">
-                  Bringing brands to life through thoughtful design, innovative 3D visualizations, 
+                  Bringing brands to life through thoughtful design, innovative 3D visualizations,
                   and compelling visual storytelling.
                 </p>
               </div>
-              
+
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/designs"
@@ -30,7 +30,7 @@ const Home = () => {
                 </Link>
 
                 <a
-                  href="/resume.pdf"
+                  href="/cv.pdf"
                   download
                   className="inline-flex items-center justify-center px-6 py-3 border-2 border-slate-300 text-slate-700 font-semibold rounded-lg hover:border-amber-500 hover:text-amber-500 transition-all duration-200"
                 >
@@ -46,7 +46,7 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="w-full h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <img
@@ -73,7 +73,7 @@ const Home = () => {
               <h3 className="text-3xl font-bold text-slate-800 mb-2">20+</h3>
               <p className="text-slate-600">Projects Completed</p>
             </div>
-            
+
             <div className="text-center group">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4 group-hover:bg-amber-200 transition-colors">
                 <Users className="text-amber-600" size={28} />
@@ -81,7 +81,7 @@ const Home = () => {
               <h3 className="text-3xl font-bold text-slate-800 mb-2">10+</h3>
               <p className="text-slate-600">Clients</p>
             </div>
-            
+
             <div className="text-center group">
               <div className="inline-flex items-center justify-center w-16 h-16 bg-amber-100 rounded-full mb-4 group-hover:bg-amber-200 transition-colors">
                 <Clock className="text-amber-600" size={28} />
@@ -102,19 +102,19 @@ const Home = () => {
                 About Me
               </h2>
               <p className="text-lg text-slate-800 leading-relaxed">
-                I'm a passionate graphic designer with over 3 years of experience creating 
-                compelling visual and innovative design solutions. My work spans 
+                I'm a passionate graphic designer with over 3 years of experience creating
+                compelling visual and innovative design solutions. My work spans
                 from traditional 2D design to modern 3D visualizations.
               </p>
               <p className="text-lg text-slate-800 leading-relaxed">
-                I believe great design should not only look beautiful but also solve problems 
-                and communicate effectively. Every project is an opportunity to create something 
+                I believe great design should not only look beautiful but also solve problems
+                and communicate effectively. Every project is an opportunity to create something
                 meaningful and impactful.
               </p>
-              
+
               <div className="flex flex-wrap gap-3 mt-6">
-                {['Logo Design','Social Media Poster', '3D Modeling', 'Print Design', '3D Animations'].map((skill) => (
-                  <span 
+                {['Logo Design', 'Social Media Poster', '3D Modeling', 'Print Design', '3D Animations'].map((skill) => (
+                  <span
                     key={skill}
                     className="px-4 py-2 bg-white text-slate-700 rounded-full border border-slate-200 hover:border-amber-300 hover:text-amber-600 transition-all duration-200"
                   >
@@ -123,7 +123,7 @@ const Home = () => {
                 ))}
               </div>
             </div>
-            
+
             <div className="relative">
               <img
                 src="https://drive.google.com/thumbnail?id=1oh6rTD80rDa5f4qpcmUaKh9Iz_8MT0ft&sz=w2000"
