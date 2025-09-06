@@ -10,7 +10,7 @@ const Contact = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState < 'idle' | 'success' | 'error' > ('idle');
+  const [submitStatus, setSubmitStatus] = useState('idle');
 
 
   const FORMSPREE_ENDPOINT = "https://formspree.io/f/xwpnngyl";
