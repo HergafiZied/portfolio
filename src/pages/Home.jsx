@@ -31,7 +31,7 @@ const Home = () => {
 
                 <a
                   href="/cv.pdf"
-                  download
+                  download="cv.pdf"
                   className="inline-flex items-center justify-center px-6 py-3 border-2 border-slate-300 text-slate-700 font-semibold rounded-lg hover:border-amber-500 hover:text-amber-500 transition-all duration-200"
                 >
                   Download CV
