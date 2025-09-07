@@ -220,11 +220,11 @@ const Designs = () => {
     },
     {
       id: 27,
-      title: "Game Fest Announcement",
-      category: "Social Media Design",
-      description: "A vibrant social media post for a Game Fest announcement.",
-      image: "https://drive.google.com/thumbnail?id=1oKjRQR372pVswHQQXHtVDM_RwLuaAEJo&sz=w2000",
-      year: "2023"
+      title: "IGSC rollup",
+      category: "Print Design",
+      description: "A professional rollup for a student club.",
+      image: "https://drive.google.com/thumbnail?id=1dICTl1eYbv4Qv1SC0VwiA2fPM-mWnzbo&sz=w2000",
+      year: "2024"
     },
   ];
 
