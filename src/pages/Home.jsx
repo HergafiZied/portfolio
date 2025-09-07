@@ -146,6 +146,7 @@ const Home = () => {
           </p>
           <Link
             to="/contact"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="inline-flex items-center px-8 py-4 bg-amber-500 text-white font-semibold rounded-lg hover:bg-amber-600 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             Start a Project
