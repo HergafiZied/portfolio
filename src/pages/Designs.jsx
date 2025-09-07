@@ -210,6 +210,22 @@ const Designs = () => {
       image: "https://drive.google.com/thumbnail?id=1C3ZJ-_UtLpxp6g7ivYlN2ZO0qJy8frQp&sz=w2000",
       year: "2023"
     },
+    {
+      id: 26,
+      title: "Game Fest Announcement",
+      category: "Social Media Design",
+      description: "A vibrant social media post for a Game Fest announcement.",
+      image: "https://drive.google.com/thumbnail?id=1oKjRQR372pVswHQQXHtVDM_RwLuaAEJo&sz=w2000",
+      year: "2023"
+    },
+    {
+      id: 27,
+      title: "Game Fest Announcement",
+      category: "Social Media Design",
+      description: "A vibrant social media post for a Game Fest announcement.",
+      image: "https://drive.google.com/thumbnail?id=1oKjRQR372pVswHQQXHtVDM_RwLuaAEJo&sz=w2000",
+      year: "2023"
+    },
   ];
 
   const categories = ['All', 'Social Media Design', 'Logo Design', 'Print Design'];
