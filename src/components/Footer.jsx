@@ -10,8 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-amber-400">Zied Hergafi</h3>
             <p className="text-slate-300 leading-relaxed">
-              Creative graphic designer specializing in Social Media design,
-              visual communication, and 3D design solutions.
+              Visual storytelling through design and 3D creativity.
             </p>
           </div>
 
