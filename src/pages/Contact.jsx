@@ -234,8 +234,7 @@ const Contact = () => {
             <div className="bg-white rounded-xl p-6 shadow-md">
               <h3 className="text-lg font-semibold text-slate-800 mb-3">What's your typical project timeline?</h3>
               <p className="text-slate-600">
-                Most projects take 2-6 weeks depending on complexity. Logo designs typically take 1-2 weeks,
-                while complete brand identities may take 4-6 weeks.
+                Most projects take 2-6 weeks depending on complexity. Logo designs typically take 1-2 weeks.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md">
