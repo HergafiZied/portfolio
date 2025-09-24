@@ -34,9 +34,9 @@ input, textarea, select, [contenteditable] {
 .cursor-dot {
   width: 8px;
   height: 8px;
-  background: #ec8200; /* change color here */
+  background: #f59e0b; /* change color here */
   border-radius: 999px;
-  box-shadow: 0 0 10px rgba(255,64,129,0.55);
+  box-shadow: 0 0 10px rgba(245,158,11,0.55);
 }
 
 /* the trailing ring (lags behind) */
