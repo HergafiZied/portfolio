@@ -5,12 +5,10 @@ import Home from './pages/Home';
 import Designs from './pages/Designs';
 import ThreeD from './pages/ThreeD';
 import Contact from './pages/Contact';
-import AnimatedCursor from "./components/AnimatedCursor"; 
 
 function App() {
   return (
     <Router >
-      <AnimatedCursor />
       < div className="min-h-screen bg-white" >
         <Header />
         <main className="pt-20">
